@@ -1,4 +1,4 @@
-export function celciusToFahrenheit(c) {
+export async function celciusToFahrenheit(c) {
     if (isNaN(c)) {
         const err = new Error("Parameter bukan angka.")
         throw err
